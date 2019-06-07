@@ -1,74 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Find out your next dream vacation!</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Where will your next vacation be?</h1>
 
-      <p>To find out what destination is best for you, please tell us a little bit about yourself:</p>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Find out your next dream vacation!</title>
+</head>
 
-      <form id="match">
-
-          <label for="name">Please enter your name</label>
-          <input id for="name" type="text">
-          <label for="age">Age range</label>
-        <select id="age">
-          <option value="1-17">1-17</option>
-          <option value="18-25">18-25</option>
-          <option value="26-35">26-35</option>
-          <option value="36-100">36-100</option>
-          </select>
-          
-
-
-
-            
-        <label for="gender">Gender</label>
-        <select id="gender">
-          <option value="female">Female</option>
-          <option value="male">Male</option>
-          <option value="non-binary">non-binary</option>
-        </select>
-
-        <label for="climate">Preferred climate</label>
-        <select id="climate">
-          <option value="tropical">Tropical</option>
-          <option value="dry">Dry</option>
-          <option value="temperate">Temperate</option>
-          <option value="polar">Polar</option>
-          <option value="continental">Continental</option>
-        </select>
-
-        <label for="location">What is your preferred location in the world?</label>
-        <select id="location">
-          <option value="America">Take me to North America!</option>
-          <option value="Europe">Take me to Europe!</option>
-          <option value="LatinAmerica">Take me to Latin America!</option>
-          <option value="anywhere">Take me literally <em>anywhere!</em></option>
-        </select>
-
-
-        <label for="energy">Do you want to relax or do you want an adventure?</label>
-        <select id="energy">
-          <option value="relax">I just want to relax.</option>
-          <option value="adventure">Take me on an adventure!</option>
-        </select>
-
-
-
-        <button type="submit" class="btn">Show me my dream vacation!</button>
-      </form>
-
-      <div id="quote">
-        <p>It sounds like <span id="vacation-match"></span> is the perfect vacation destination for you!</p>
-      </div>
-  
+<body>
+  <div class="container">
+    <h1>Where will your next vacation be?</h1>
+    <p>To find out what destination is best for you, please tell us a little bit about yourself:</p>
+    <form id="match">
+      <label for="name">Please enter your name</label>
+      <input id for="name" type="text">
+      <label for="age">Age range</label>
+      <select id="age">
+        <option value="1-17">1-17</option>
+        <option value="18-25">18-25</option>
+        <option value="26-35">26-35</option>
+        <option value="36-100">36-100</option>
+      </select>
+      <label for="gender">Gender</label>
+      <select id="gender">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+        <option value="non-binary">non-binary</option>
+      </select>
+      <label for="climate">Preferred climate</label>
+      <select id="climate">
+        <option value="tropical">Tropical</option>
+        <option value="dry">Dry</option>
+        <option value="temperate">Temperate</option>
+        <option value="polar">Polar</option>
+        <option value="continental">Continental</option>
+      </select>
+      <label for="location">What is your preferred location in the world?</label>
+      <select id="location">
+        <option value="America">Take me to North America!</option>
+        <option value="Europe">Take me to Europe!</option>
+        <option value="LatinAmerica">Take me to Latin America!</option>
+        <option value="anywhere">Take me literally <em>anywhere!</em></option>
+      </select>
+      <label for="energy">Do you want to relax or do you want an adventure?</label>
+      <select id="energy">
+        <option value="relax">I just want to relax.</option>
+        <option value="adventure">Take me on an adventure!</option>
+      </select>
+      <button type="submit" class="btn">Show me my dream vacation!</button>
+    </form>
+    <div id="quote">
+      <p>It sounds like <span id="vacation-match"></span> is the perfect vacation destination for you!</p>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
