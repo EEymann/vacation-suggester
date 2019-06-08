@@ -5,3 +5,24 @@
 #quote {
   display: none;
 }
+
+h1.intro {
+  size: 35px;
+  color: blue;
+  text-align: center;
+  background-color: aqua;
+}
+
+h2.intro {
+  size: 45px;
+  color: blue;
+  text-align: center;
+  background-color: orange;
+  
+}
+
+img.intro {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
