@@ -1,10 +1,12 @@
+
+#hawaii, #arizona, #ibiza, #switzerland {
+  display: none;
+}
+
 .btn {
   display: block;
 }
 
-#quote {
-  display: none;
-}
 
 h1.intro {
   size: 35px;
