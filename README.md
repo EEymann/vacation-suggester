@@ -13,7 +13,7 @@ _This webpage provides an interactive survey, where the user can enter informati
 * _Clone this repository_
 * _A folder titled "vacation-suggester" will appear on your desktop._
 * _Click into the folder and open the file titled "index.html"_
-* _You can also checkout this webpage at https://eeymann.github.io/my-portfolio/index.html
+* _You can also checkout this webpage at https://eeymann.github.io/vacation-suggester/index.html
 * _Enjoy my webpage!_
 
 ## Technologies Used
