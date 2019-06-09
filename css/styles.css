@@ -6,25 +6,41 @@
 .btn {
   display: block;
 }
+.inputWidth {
+  width: 200px;
+}
 
+.background {
+  background-color: lavender;
+}
 
 h1.intro {
-  size: 35px;
   color: blue;
   text-align: center;
   background-color: aqua;
 }
 
+p.vacay {
+  font-size: 25px;
+  color: black;
+  text-align: left;
+  font-family: 'Courier New';
+}
+
 h2.intro {
-  size: 45px;
-  color: blue;
-  text-align: center;
-  background-color: orange;
+  color: black;
+  text-align: left;
+  font-family: 'Courier New';
   
 }
 
-img.intro {
+img {
   border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  
+}
+
+.image-wrapper {
+  display: inherit;
+  text-align: center;
 }

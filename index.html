@@ -9,21 +9,23 @@
   <title>Find out your next dream vacation!</title>
 </head>
 
-<body>
+<body class=background>
   <div class="container">
     <h1 class="intro">Where will your next vacation be?</h1>
+    <span class="image-wrapper">
+      <img class="intro" src="img/relax1.jpg" alt="a picture of feet kicked up and relaxed">
+    </span>
     <h2 class="intro">To find out what destination is best for you, please tell us a little bit about yourself!</h2>
-
-    <img class="intro" src="img/relax1.jpg" alt="a picture of feet kicked up and relaxed">
     <form id="match">
+
       <div class="form-group">
         <label for="userName">Please enter your name:</label>
-        <input id for="userName" class="form-control" type="text">
+        <input id="userName" class="form-control inputWidth" type="text">
       </div>
 
       <div class="form-group">
-        <label for="age">Select your age range</label>
-        <select id="age">
+        <label for="age">Select your age range:</label>
+        <select id="age" class="form-control inputWidth">
           <option value="18-25">18-25</option>
           <option value="26-35">26-35</option>
           <option value="36-100">36-100</option>
@@ -31,8 +33,8 @@
       </div>
 
       <div class="form-group">
-        <label for="gender">Gender</label>
-        <select id="gender">
+        <label for="gender">Gender:</label>
+        <select id="gender" class="form-control inputWidth">
           <option value="female">Female</option>
           <option value="male">Male</option>
           <option value="non-binary">non-binary</option>
@@ -40,8 +42,8 @@
       </div>
 
       <div class="form-group">
-        <label for="environment">Preferred environment</label>
-        <select id="environment">
+        <label for="environment">Preferred environment:</label>
+        <select id="environment" class="form-control inputWidth">
           <option value="tropical">Beach vacation</option>
           <option value="dry">Mountain vacation</option>
         </select>
@@ -49,7 +51,7 @@
 
       <div class="form-group">
         <label for="location">What is your preferred location in the world?</label>
-        <select id="location">
+        <select id="location" class="form-control inputWidth">
           <option value="america">Take me to North America!</option>
           <option value="anywhere">Take me literally <em>anywhere!</em></option>
         </select>
@@ -57,21 +59,23 @@
 
       <div class="form-group">
         <label for="energy">Do you want to relax or do you want an adventure?</label>
-        <select id="energy">
+        <select id="energy" class="form-control inputWidth">
           <option value="relax">I just want to relax.</option>
           <option value="adventure">Take me on an adventure!</option>
         </select>
       </div>
 
-      <button type="submit" class="btn">Show me my dream vacation!</button>
-  </div>
-</form>
+      
+      <button type="submit" class="btn btn-primary">Show me my dream vacation!</button>
+    </form>
+  
+
 
 <!--- Vacation options -->
 
 <div id="hawaii">
   <h1>Hawaii</h1>
-  <p>It sounds like Hawaii is the perfect vacation match for you, <span class="enterName"></span>! You can relax on the beach or if you feel rested, catch some sweet waves!</p>
+  <p class="vacay">It sounds like Hawaii is the perfect vacation match for you, <span class="name"></span>! You can relax on the beach or if you feel up for an adventure, catch some sweet waves!</p>
   <img class="intro" src="img/poms.jpg" alt="a picture of pom trees">
   <h2>Let's go to Hawaii</h2>
   <ul>
@@ -83,7 +87,7 @@
 
 <div id="arizona">
   <h1>Arizona</h1>
-  <p>It sounds like Arizona is the perfect vacation match for you, <span class="enterName"></span>! You can relax by the pool and soak up some sun, or if you're up for some adventure, you can go hiking in the Grand Canyon!</p>
+  <p class="vacay">It sounds like Arizona is the perfect vacation match for you, <span class="name"></span>! You can relax by the pool and soak up some sun, or if you're up for some adventure, you can go hiking in the Grand Canyon!</p>
   <img class="intro" src="img/desert.jpg" alt="a picture of a desert">
   <h2>Let's go to Arizona</h2>
     <ul>
@@ -95,7 +99,7 @@
 
 <div id="ibiza">
   <h1>Ibiza</h1>
-  <p>It sounds like Ibiza, Spain is the perfect vacation match for you, <span class="enterName"></span>! You can relax by the pool and soak up some sun, or if you're up for some adventure, you can catch some waves!</p>
+  <p class="vacay">It sounds like Ibiza, Spain is the perfect vacation match for you, <span class="name"></span>! You can relax by the pool and soak up some sun, or if you're up for some adventure, you can catch some waves!</p>
   <img class="intro" src="img/ibiza.jpg" alt="a picture of a beach in Ibiza, Spain">
   <h2>Let's go to Ibiza, Spain</h2>
     <ul>
@@ -107,7 +111,7 @@
 
 <div id="switzerland">
   <h1>Switzerland</h1>
-  <p>If you like mountains, it sounds like Zermatt, Switzerland is the perfect vacation match for you, <span class="enterName"></span>! You can relax in a cozy cabin in the woods, or if you're up for some adventure, you can hike Dom Mountain!</p>
+  <p class="vacay">If you like mountains, it sounds like Zermatt, Switzerland is the perfect vacation match for you, <span class="name"></span>! You can relax in a cozy cabin in the woods, or if you're up for some adventure, you can hike Dom Mountain!</p>
   <img class="intro" src="img/switzerland.jpg" alt="a picture of Switzerland">
   <h2>Let's check out Zermatt, Switzerland</h2>
   <ul>
@@ -116,8 +120,6 @@
     <li>Check out these cool <a href=https://www.myswitzerland.com/en-us/accommodations>accomodations</a></li>
   </ul>
 </div>
-
-
-
+</div>
 </body>
 </html>
